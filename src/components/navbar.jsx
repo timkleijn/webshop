@@ -7,8 +7,7 @@ export const Navbar = () => {
             <div id="links" className='max-w-7xl mx-auto flex justify-between items-center'>
                 <div className='space-x-4 flex items-center'>
                     <img src='../src/assets/logo.png' class="h-16"/>
-                    <Link to="/" className='text-primary hover:text-primaryhover font-bold text-lg p-3'>Producten</Link>
-                    <Link to="/" className='text-primary hover:text-primaryhover font-bold text-lg p-3'>Aanbiedingen</Link>
+                    <Link to="/shop" className='text-primary hover:text-primaryhover font-bold text-lg p-3'>Producten</Link>
                 </div>
                     <Link to="/cart">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 bg-red-600 text-white hover:bg-red-800 rounded-full p-2">

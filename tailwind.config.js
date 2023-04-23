@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: 'rgb(var(--color-primary) / <alpha-value>)',
+        primaryhover: 'rgb(var(--color-primary-hover) / <alpha-value>)',
+      secondary: 'rgb(var(--color-secondary) / <alpha-value>)',
+      secondaryhover: 'rgb(var(--color-secondary-hover) / <alpha-value>)',
+      }
+    },
   },
   plugins: [],
 }

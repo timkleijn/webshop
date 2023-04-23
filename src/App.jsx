@@ -16,7 +16,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/webshop' element={<Shop />} />
+          <Route path='/shop' element={<Shop />} />
 
           <Route path='/cart' element={<Cart />} />
         </Routes>

@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import { Navbar } from './components/navbar'
-import { Cart } from './pages/cart/cart'
 import { Shop } from './pages/shop/shop'
 import { ShopcontextProvider } from './context/shop-context'
 
@@ -16,9 +15,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/shop' element={<Shop />} />
-
-          <Route path='/cart' element={<Cart />} />
+          <Route path='/' element={<Shop />} />
         </Routes>
       </Router>
       </ShopcontextProvider>

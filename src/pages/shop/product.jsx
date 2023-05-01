@@ -8,13 +8,13 @@ export const Product = (props) => {
 
     return (
         <div className='m-2 col-span-1'>
-            <div className='w-full p-4 flex justify-between lg:flex-col items-center border border-gray-200'>
-                <img src={productImage} className='w-20 h-20 md:w-40 md:h-40 object-cover' />
-                <div className='flex flex-1 ml-4 lg:ml-0 flex-col lg:grid lg:grid-cols-3 lg:w-full mt-3'>
-                    <h3 className='lg:col-span-2 font-semibold text-xl lg:my-auto whitespace-nowrap'>{productName}</h3>
+            <div className='w-full p-4 flex justify-between lg:flex-col items-center border border-gray-200 h-full'>
+                <img src={productImage} className='w-20 h-20 lg:w-40 lg:h-40 object-contain' />
+                <div className='flex flex-1 ml-4 lg:ml-0 flex-col lg:grid lg:grid-cols-3 lg:w-full mt-'>
+                    <h3 className='lg:col-span-2 font-semibold text-xl lg:my-auto'>{productName}</h3>
                     <h3 className='lg:col-span-1 font-bold lg:text-right lg:my-auto'>
                         <span className='text-3xl'>{Math.floor(price)}.</span>
-                        <span className='text-lg'>{(price - Math.floor(price)).toFixed(2) * 100}</span>
+                        <span className='text-lg'>{(((price - Math.floor(price))) * 100).toFixed(0)}</span>
                     </h3>
                 </div>
                 <div className='flex lg:w-full justify-between mt-3'>

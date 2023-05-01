@@ -1,12 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import logo from '../assets/logo.png'
 
 export const Navbar = () => {
     return (
         <div className='sticky top-0 bg-white z-10 py-3 border-b border-gray-200'>
             <div id="links" className='max-w-7xl mx-auto flex justify-between items-center px-4'>
                 <div className='space-x-4 flex items-center'>
-                    <img src='../src/assets/logo.png' class="h-16"/>
+                    <img src={logo} class="h-16"/>
                 </div>
                     <button>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 bg-red-600 text-white hover:bg-red-800 rounded-full p-2">

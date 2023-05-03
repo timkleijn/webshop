@@ -189,7 +189,7 @@ export const PRODUCTS = [
     {
         id: 21,
         productName: "Komkommer",
-        price: 1.04,
+        price: 0.98,
         productImage: komkommer,
         category: "Vegetables",
     },
@@ -364,7 +364,7 @@ export const PRODUCTS = [
     {
         id: 46,
         productName: "Volle yoghurt per liter",
-        price: 2.07,
+        price: 1.35,
         productImage: yoghurt,
         category: "Dairy",
     },
